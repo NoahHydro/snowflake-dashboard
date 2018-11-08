@@ -1,44 +1,14 @@
 {
-  "name": "snowflake-dashboard-react",
-  "version": "0.1.0",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NoahHydro/snowflake-dashboard.git"
-  },
-  "homepage": "http://NoahHydro.github.io/snowflake-dashboard",
-  "dependencies": {
-    "@babel/polyfill": "^7.0.0",
-    "@material-ui/core": "^3.1.1",
-    "@material-ui/icons": "^3.0.1",
-    "ajv": "^6.5.4",
-    "gh-pages": "^2.0.0",
-    "prop-types": "^15.6.2",
-    "react": "^16.5.2",
-    "react-copy-to-clipboard": "^5.0.1",
-    "react-dom": "^16.5.2",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.3",
-    "web3-webpacked-react": "^1.0.15",
-    "wyre-react-library": "^1.0.2"
+  "name": "hydrogenoxide",
+  "version": "1.0.0",
+  "description": "This box comes with everything you need to start using smart contracts from a react app. This is as barebones as it gets, so nothing stands in your way.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "npm run build-resolver-list && react-scripts start",
-    "build-resolver-list": "node buildResolverList.js",
-    "build": "npm run build-resolver-list && react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "eslint": "^5.6.0",
-    "eslint-plugin-react": "^7.11.1"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "author": "",
+  "license": "ISC"
 }

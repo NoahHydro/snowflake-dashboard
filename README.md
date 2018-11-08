@@ -1,16 +1,67 @@
-# Snowflake Dashboard
+# Hydrogen Oxide
 
-This is a demo frontend for the [Snowflake identity protocol](https://github.com/hydrogen-dev/smart-contracts/tree/master/snowflake) written in React. It utilizes the [web3-webpacked](https://github.com/noahhydro/web3-webpacked) library. For more information on Snowflake, please refer to the [white paper](https://github.com/hydrogen-dev/hydro-docs/tree/master/Snowflake).
+![Alt text](./UX.png?raw=true "Oxide UX")
 
-Visit the [live dashboard](https://noahhydro.github.io/snowflake-dashboard/).
+### A russian-roulette based gambling dApp, that is dependent on the amount wagered and the entropy roll. Punters have to wager at least 100 HYDRO to contend in a round. Each roll creates an amount of a sub-asset to the ERC20 token based on your HYDRO balance, the amount is computed by multiplying your balance by the entropy roll to the power of itself.
 
-## Adding Resolver Modals
+```
+result = amount*entropy^(entropy)
+```
 
-1. Create a Snowflake-compatible smart contract and deploy it to `Rinkeby` or `Mainnet`.
-2. Add a folder named per the **checksummed** `address` of your smart contract in [src/components/resolvers/](./src/components/resolvers/).
-3. Create an `index.js` file in the folder.
-4. In this file, create a React component that displays your resolver's data and make it the default export.
-5. Additionally, make sure to include the following named exports:
-	- `logo`: A 256x256 png logo for your resolver.
-	- `ABI`: The ABI of your contract.
-	- `requiredAllowance`: The HYDRO amount a user must set as their initial allowance for your resolver on sign-up.
+## Installation
+
+1. Install Truffle globally.
+    ```javascript
+    npm install -g truffle
+    ```
+
+2. Compile the contracts in order to obtain the JSON ABI's and move your build folder to client/src/build
+
+    ```
+    truffle compile
+    ```
+
+3. Enter the client directory and install dependencies
+    ```
+    cd client
+    ```
+    ```
+    npm install
+    ```
+
+4. Run the local webpack server for the dApp UX
+    ```
+    // Serves the front-end on http://localhost:3000
+    npm run start
+    ```
+
+5. Interact with MetaMask and utilising the Snowflake Dashboard to fund your associated HydroId to fund your wagers.
+
+6. Test your luck but don't forget to remember when enough is enough!
+
+## FAQ
+
+* __What is the highest roll?__
+
+  Punters can beat all odds if they roll a 15!
+
+* __What is the lowest roll?__
+
+  Punters can lose it all if they roll a 0!
+
+* __What is the minimum bet?__
+
+  Punters have to wager at least 100 HYDRO to contend in a round.
+
+* __What is the maximum bet?__
+
+  Punters can wager at most 50,000 HYDRO to participate in a round.
+
+* __What's the fee?__
+
+  Each round payout's 100 HYDRO to the creator, punters have to pay their own gas fee's to interact with the dApp.
+
+* __How many people can participate in a round?__
+
+  At minimum 2 people can be active in a round, then a maximum of 10 players can
+  participate.
