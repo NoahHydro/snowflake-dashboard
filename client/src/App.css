@@ -1,0 +1,195 @@
+table, thead, tbody, td, tr {
+
+background-color: #0075EC
+}
+
+td {
+
+  height: 30px;
+  width: 300px;
+
+}
+
+th {
+
+  height: 30px;
+  width: 350px;
+
+}
+
+.leaderboardHeader {
+
+  overflow-y: hidden;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.oxideTitle {
+
+  position: absolute;
+  margin: 0px;
+  right: 20px;
+  left: 0px;
+  top: 50px;
+
+}
+
+.titleImage {
+
+  position: relative;
+  width: 125px;
+  top: -25px;
+
+}
+
+.titleName {
+
+  position: relative;
+  right: -2.5px;
+  top: -50px;
+
+}
+
+.oxideStats {
+
+  position: absolute;
+  margin: 0px;
+  right: 0px;
+  left: 0px;
+  top: 250px;
+  border-radius: 25px;
+}
+
+.oxideAcc {
+
+  position: absolute;
+  margin: 0px;
+  right: 0px;
+  left: 212.5px;
+  top: 275px;
+  width: 850px;
+  height: 5px;
+}
+
+
+.oxideWinner {
+
+  position: absolute;
+  left: 225px;
+  top: 50px;
+  width: 250px;
+}
+
+.winningStar {
+
+  position: relative;
+  top: -2.5px;
+  left: -5px;
+
+}
+
+.oxideTracker {
+
+  position: relative;
+  top: 100px;
+  width: 1075px;
+  left: 100px;
+
+}
+
+.hydroPot {
+
+  position: relative;
+  font-size: 20px;
+  top: -50px;
+
+}
+
+.tokenLogo {
+
+  position: relative;
+  width: 25px;
+  top: 2.5px;
+  left: -5px;
+
+}
+
+.oxideAccount {
+
+  position: relative;
+  font-size: 15px;
+  right: 150px;
+  top: 10px;
+
+
+}
+
+.snowflakeBalance {
+
+  position: absolute;
+  font-size: 15px;
+
+
+}
+
+.oxideBet {
+
+  position: absolute;
+  margin: 0px;
+  right: 237.5px;
+  top: 50px;
+  width: 250px;
+  height: 350px;
+
+}
+
+.oxideInput {
+
+  position: relative;
+  top: -30px;
+
+}
+.oxideButton {
+
+  position: relative;
+  top: -5px;
+
+}
+
+.oxideId {
+
+  position: relative;
+  font-size: 15px;
+  top: -10px;
+  left: 200px;
+
+
+}
+
+.leaderboardBody {
+
+  overflow-y: scroll;
+  display: block;
+  height: 100px;
+}
+
+.oxideLeaderboard {
+
+  position: relative;
+  width: 1200px;
+  font-size: 12.5px;
+  top: 525px;
+  left: 40px;
+  right: 0%;
+}
+
+.snowflakeBalance {
+
+  position: relative;
+  top: 0px;
+  height: 50px;
+
+}
