@@ -88,8 +88,8 @@ self.__precacheManifest = [
     "url": "/snowflake-dashboard/static/media/logo.9c231d0f.png"
   },
   {
-    "revision": "e45ac290ad96dd41cf88",
-    "url": "/snowflake-dashboard/static/js/main.e45ac290.chunk.js"
+    "revision": "00f5fb8ac5e65bf0e221",
+    "url": "/snowflake-dashboard/static/js/main.00f5fb8a.chunk.js"
   },
   {
     "revision": "8decae5264d815db7fbf",
@@ -136,11 +136,11 @@ self.__precacheManifest = [
     "url": "/snowflake-dashboard/static/media/walletConnect.d1b6ff6c.svg"
   },
   {
-    "revision": "e45ac290ad96dd41cf88",
+    "revision": "00f5fb8ac5e65bf0e221",
     "url": "/snowflake-dashboard/static/css/main.b11147d5.chunk.css"
   },
   {
-    "revision": "39afe51c56eff56414758fa7dafe19cd",
+    "revision": "57528ad7a8071229c4d526993281646b",
     "url": "/snowflake-dashboard/index.html"
   }
 ];
