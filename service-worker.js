@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/snowflake-dashboard/precache-manifest.6530d8579dc5b86b81a536d43dd08573.js"
+  "/IceDocumentManagement/precache-manifest.0f8738ecc40867c13ca47ceb6d404122.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/snowflake-dashboard/index.html", {
+workbox.routing.registerNavigationRoute("/IceDocumentManagement/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
