@@ -21,4 +21,4 @@ Visit the [live dashboard](https://HydroBlockchain.github.io/snowflake-dashboard
 	- `requiredAllowance`: An optional HYDRO amount a user must set as their initial allowance for your resolver on sign-up.
 
 Hints
-- Check out the existing [Status Resolver](./src/components/resolvers/Rinkeby/0xbB54D790860B07DE1E1b2db0eD553a6cB713E2f0) for best practices patterns.
+- Check out the existing [Status Resolver](./src/components/resolvers/Rinkeby/0x16fD6e2E1C4afB9C4e7B901141706596317e4ceB) for best practices patterns.
